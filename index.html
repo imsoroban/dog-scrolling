@@ -3,17 +3,33 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Dog Scrolling</title>
+  <title>DogScroll • Endless Good Boys</title>
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
 
   <header>
     <div class="logo">
-      <span>Dog</span>
+      <span>🐶</span> DogScroll
     </div>
     <div class="header-controls">
       <div class="counter-badge" id="dog-count">0 Seen</div>
       <button class="reset-btn" id="reset-btn">Reset</button>
     </div>
   </header>
+
+  <main id="feed"></main>
+
+  <div id="sentinel">
+    <div class="dot-loader">
+      <div></div>
+      <div></div>
+      <div></div>
+    </div>
+  </div>
+
+  <div id="toast" class="toast">Link copied to clipboard!</div>
+
+  <script src="script.js"></script>
+</body>
+</html>
